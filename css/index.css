@@ -1,0 +1,145 @@
+body { background-color: black;
+   height: 700px;
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 375px;
+    height: 60px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+}
+.video-contenedor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 375px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.video-contenedor video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+.buttonh,
+.buttonh2 { 
+   position: relative;
+top: -1px;
+left: -176px;
+font-size: 5px;
+background-color: blueviolet;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.buttonh2{
+    position: relative;
+    top: -61px;
+    left: -136px;
+    font-size: 5px;
+}
+
+.buttonh:hover {
+    background-color: #fff;
+    color: blueviolet;
+}
+
+.buttonh2:hover {
+    background-color: #fff;
+    color: blueviolet;
+}
+
+
+
+
+
+
+
+
+main {
+    width: 375px;
+    height: 700px;
+    background-color: green;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    top: -17px;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 375px;
+    height: 700px;
+    overflow: hidden;
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.abautme1 {
+    font-family: "Jaro", sans-serif;
+    margin: 20px 0;
+    font-size: 20px;
+    position: relative;
+    left: 151px;
+    top: 60px;
+    
+    color: white;
+    z-index: 1;
+}
+@keyframes moveEffect {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.moving {
+    animation: moveEffect 0.5s infinite;
+}
+
+.about-text {
+    position: relative;
+    top: 80px;
+    z-index: 1;
+    font-family: "Bebas Neue", sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    
+    font-size: 10px;
+    color: white;
+    column-count: 2;
+    column-gap: 20px;
+    display: inline-block;
+    text-align: justify;
+}
+
+.imagen1{
+    width: 20px;
+    position: relative;
+    top: -20px;
+}
+
